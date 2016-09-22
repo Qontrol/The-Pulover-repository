@@ -1,0 +1,44 @@
+﻿[PMC Code v5.0.5]|NumpadDot||1|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|[LoopStart]|LoopStart|0|0|Loop|||||
+2|Continue, Continue, FoundX, FoundY, 0|0, 0, 1366, 768, C:\Users\Ben\AppData\Roaming\MacroCreator\Screenshots\Screen_20160922155711.png|1|0|ImageSearch||Window|||
+3|If Image/Pixel Found||1|0|If_Statement|||||
+4|[Pause]|Random|1|0|Sleep|500||||
+5|Right Move & Click|588, 318 Right, Down|1|0|Click|||||
+6|[Pause]|Random|1|0|Sleep|500||||
+7|Right Move & Click|588, 318 Right, Up|1|0|Click|||||
+8|[Pause]|Random|1|0|Sleep|500||||
+9|Left Move & Click|584, 423 Left, Down|1|0|Click|||||
+10|[Pause]|Random|1|0|Sleep|500||||
+11|Left Move & Click|584, 423 Left, Up|1|0|Click|||||
+12|[Pause]|Random|1|0|Sleep|500||||
+13|Right Move & Click|245, 253 Right, Down|1|0|Click|||||
+14|[Pause]|Random|1|0|Sleep|500||||
+15|Right Move & Click|245, 253 Right, Up|1|0|Click|||||
+16|[Pause]|Random|1|0|Sleep|500||||
+17|Left Move & Click|228, 355 Left, Down|1|0|Click|||||
+18|[Pause]|Random|1|0|Sleep|500||||
+19|Left Move & Click|228, 355 Left, Up|1|0|Click|||||
+20|[Pause]|Random|1|0|Sleep|500||||
+21|Left Move & Click|499, 78 Left, Down|1|0|Click|||||
+22|[Pause]|Random|1|0|Sleep|500||||
+23|Left Move & Click|499, 78 Left, Up|1|0|Click|||||
+24|[Pause]||1|3000|Sleep|||||
+25|[End If]|EndIf|1|0|If_Statement|||||
+26|Continue, Continue, FoundX, FoundY, 0|0, 0, 1366, 768, C:\Users\Ben\AppData\Roaming\MacroCreator\Screenshots\Screen_20160922162339.png|1|0|ImageSearch||Window|||
+27|If Image/Pixel Found||1|0|If_Statement|||||
+28|[Pause]|Random|1|0|Sleep|500||||
+29|Left Click, Continue, FoundX, FoundY, 1|0, 0, 1366, 768, C:\Users\Ben\AppData\Roaming\MacroCreator\Screenshots\Screen_20160922160110.png|1|0|ImageSearch||Window|||
+30|[Pause]|Random|1|0|Sleep|500||||
+31|Move|498, 97, 0|1|10|Click|||||
+32|Left Click|Left, 1, |1|10|Click|||||
+33|[Pause]||1|3000|Sleep|||||
+34|[End If]|EndIf|1|0|If_Statement|||||
+35|Continue, Continue, FoundX, FoundY, 0|0, 0, 1366, 768, C:\Users\Ben\AppData\Roaming\MacroCreator\Screenshots\Screen_20160922160557.png|1|0|ImageSearch||Window|||
+36|If Image/Pixel Found||1|0|If_Statement|||||
+37|[Pause]||1|1000|Sleep|||||
+38|[Text]|1|1|0|SendRaw|||||
+39|[Pause]||1|3000|Sleep|||||
+40|[End If]|EndIf|1|0|If_Statement|||||
+41|[LoopEnd]|LoopEnd|1|0|Loop|||||
+
